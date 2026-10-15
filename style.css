@@ -86,9 +86,10 @@ h1{
 #game-over-area{
     text-align: center;
     border: indigo 8px solid;
-    padding: 50px;
-    width: 30px;
+    padding: 30px;
+    width: 200px;
     margin-top: 30px;
+    box-sizing: border-box;
 }
 h2{
     color: currentColor;
@@ -100,8 +101,9 @@ button{
     background-color: transparent;
     color: currentColor;
     border: currentColor 1px solid;
-    padding: 10px;
-    font-size: 1.5em;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 10px;
 }
 .hidden{
     display: none;

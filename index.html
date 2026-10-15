@@ -93,14 +93,14 @@ function checkWinner() {
     }
     return false;
 }
-playAgain.onclick = function() {
+playAgainButton.onclick = function() {
     board = ["", "", "", "", "", "", "", "", ""];
     currentPlayer = "X";
     gameActive = true;
    tiles.forEach(function(tile) {
         tile.innerHTML = "";
     });
-    gameOver.classList.add("hidden");
+    gameOverArea.classList.add("hidden");
     strike.className = "strike";
 };
 
